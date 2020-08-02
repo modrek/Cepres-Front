@@ -1,0 +1,14 @@
+.pagination{
+  button{
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    &:disabled{
+      cursor: default;
+    }
+  }
+}
+

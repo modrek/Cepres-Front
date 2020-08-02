@@ -1,0 +1,41 @@
+$navbar-color:#0099ff;
+
+.modreknavbar{
+    background-color: $navbar-color;
+    padding: 10px 0;
+    color:white;
+}
+
+.nav-item{
+    color: white;
+    background-color: $navbar-color;
+    transition: border-bottom 2ms;
+    margin: 0 5px;
+    > a:hover,
+    > a:active,
+    > a.active {
+        border-bottom: 2px solid #fff;
+        color: white;
+    }
+}
+
+.nav-link{
+    color: #fff;
+    height: 100%;
+    padding: 6px 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.dropdown-menu{
+    box-shadow: 3px 3px 5px grey;
+    margin-left: -45px;
+}
+
+.dropdownlink{
+    color: $navbar-color;
+    &:hover{
+        color: white !important;
+        background-color: $navbar-color !important;
+    }
+}
+

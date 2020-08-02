@@ -1,0 +1,57 @@
+$userbardbackgroundcolor: lightblue;
+$userimgbackground: coral;
+$columnbordercolor: gray;
+
+.container {
+  flex: 1;
+  flex-direction: column;
+}
+.records {
+  background-color: $userbardbackgroundcolor;
+  height: 80vh;
+}
+
+.newbtn {
+  color: black;
+  padding: 10px;
+  border: 1px solid blueviolet;
+  height: 100%;
+}
+
+.newbtn:hover {
+  color: white !important;
+  background-color: #563d7c !important;
+}
+
+.nav-btn{
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid #fff;
+  &.add{
+    color: #fff;
+    background-color: #28a745;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+      border: 1px solid #0ca705;
+      background-color: #fff;
+      color: #0ca705;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  &.info{
+    color: #fff;
+    background-color: rgb(31, 58, 147);
+    transition: all 0.3s ease-in-out;
+    &:hover{
+      border: 1px solid rgb(31, 58, 147);
+      background-color: #fff;
+      color: rgb(31, 58, 147);
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
